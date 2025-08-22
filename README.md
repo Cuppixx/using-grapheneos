@@ -1,4 +1,4 @@
-# Using GrapheneOS – A Daily Driver Experience
+# Using GrapheneOS
 
 Welcome to Using GrapheneOS, a personal log and resource for anyone curious about what it’s like to use GrapheneOS as a daily driver.
 
