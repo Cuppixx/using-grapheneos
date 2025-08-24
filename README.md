@@ -1,20 +1,28 @@
 # Using GrapheneOS
 
-Welcome to Using GrapheneOS, a personal log and resource for anyone curious about what it’s like to use GrapheneOS as a daily driver.
+Welcome to Using GrapheneOS, a personal collection of notes, apps, configs, and insights from my experience using GrapheneOS as a daily driver.
 
-While the web is full of reviews on social media, this repo aims to cut through some of the noise and give a realistic, user-level perspective. I’ll cover the open-source apps I rely on, the commercial software I haven’t found good FOSS replacements for (yet), the settings and tweaks I personally like, and even the small annoyances that come up along the way.
+While the web is full of reviews on social media, this repo aims to cut through some of the noise and give yet another, user-level perspective.
+I’ll cover the open-source apps I rely on, the commercial software I haven’t found good open-source replacements for, the settings and tweaks I personally like, and even the small annoyances that come up along the way.
 
-Whether you're considering switching to GrapheneOS, already made the jump, or just curious about using a privacy-focused, de-googled Android fork — this should help to get some insights.
+Whether you're considering switching to GrapheneOS, already jumped ship, or just curious about using a privacy-focused, de-googled Android fork — this hopefully helps to get some insights.
 
 ## 🧭 What You’ll Find Here
 
-- This repo is structured more like a growing journal than a formal review. Expect things like:
-- 📦 A curated list of all the apps I use and what I use them for
-- 🛠️ My personal GrapheneOS setup: settings, features, and configuration
-- 💬 Honest notes on what works well and what doesn’t
-- 🔄 Ongoing updates as I test alternatives, swap apps, or refine my usage
-- 🚫 Gaps in the FOSS ecosystem where I still need to use proprietary apps
-- 💡 Occasional tips, workarounds, and mini-guides based on experience
+- A curated list of all the apps I use and what I use them for
+- My personal GrapheneOS setup: settings, features, and configuration
+- Some notes on what works well and what doesn’t
+- Some tips, workarounds, and mini-guides based on experience
+
+### Heads-Up
+
+Before getting into the first major topic, I want to clear up a common misconception about GrapheneOS. While it’s well-known as a privacy-focused Android fork, you don't need to be a hardcore privacy enthusiast to benefit from using it.
+
+Yes, GrapheneOS is built with strong security and privacy principles at its core — but that doesn’t mean you must give up Google services or only use open-source apps to enjoy it. In fact, you can absolutely use GrapheneOS while still relying on Google apps and other proprietary software, and it works just fine.
+
+I personally use GrapheneOS in a pretty casual way. I do appreciate the built-in privacy and security features, but I'm also perfectly fine using the Google Play Store — thanks to GrapheneOS’s sandboxed Google Play compatibility layer — for a good chunk of my apps.
+
+But the number one reason I stick with GrapheneOS — tho this applies to most custom Android OSes — is how clean it is. No bloat, no preinstalled junk I didn’t ask for (and can't remove), no forced use of specific apps. Just a fast, minimalist system that stays out of my way. And best of all, no more mysterious background processes eating up resources with no explanation. My phone runs what I tell it to run — nothing more, nothing less.
 
 ## 📦 Apps I Use – Overview
 
@@ -26,20 +34,20 @@ These are the system apps that come pre-installed with GrapheneOS. They're sandb
 
 - **App Store** – Used for installing trusted apps (via GOS's "Apps" app, including sandboxed Play Services)
 - **Auditor** – Verifies device integrity and security
-- **Calculator** – Lightweight, basic calculator
+- **Calculator**
 - **Camera** – Secure default camera app, though lacking features like document scanning
 - **Clock** – Alarm, timer, stopwatch, and world clock
-- **Contacts** – Local contact management
+- **Contacts**
 - **Files** – Basic file manager with storage access framework
 - **Gallery** – View local media (photos, videos)
 - **Info** – System and device information viewer
-- **Messaging** – Basic SMS app (non-RCS)
-- **PDF Reader** – View PDFs offline
-- **Settings** – System settings and GrapheneOS features
-- **Telephone** – Dialer and call management
+- **Messaging**
+- **PDF Reader**
+- **Settings**
+- **Telephone**
 - **Vanadium** – Hardened browser based on Chromium, optimized for privacy
 
-### 🟩 Open Source 3rd-Party Apps
+### 🟩 OpenSource Apps
 
 Chosen to replace proprietary tools or add functionality missing from GrapheneOS.
 
